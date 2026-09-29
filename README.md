@@ -36,7 +36,7 @@ Expected URLs for that repository:
 
 The workflow gets the actual site URL from GitHub Pages, so links and metadata also work with another repository name or a configured custom domain. Update `siteUrl` in `site.config.json` to match for local previews. If your default branch is not `main`, update `push.branches` in `.github/workflows/website.yml` too. Pull requests build and validate without deploying.
 
-No GitHub repository or live deployment was created as part of the local website build. The expected URLs above are publishing targets, not a claim that the site is live.
+Published September 29, 2026 to [billcorps/TapBatWebsite](https://github.com/billcorps/TapBatWebsite). The [live site](https://billcorps.github.io/TapBatWebsite/), privacy page, and beta page all returned HTTP 200 after the successful GitHub Actions deployment.
 
 Workflow reference: [GitHub Pages custom workflows](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
 
@@ -79,7 +79,7 @@ Screenshots are actual captures and contain no sample ads. The home capture uses
 
 The policy is based on the inspected app code and its included Google SDKs. It covers local best score, haptic setting, scenery seed, pending leaderboard submissions, Android backup, advertising, consent controls, and optional Play Games services. It does not assert that the app collects no data or that uninstalling deletes third-party data.
 
-The policy also describes support email handling and beta membership. Keep it aligned with your actual support retention practices, Google service settings, shipped release, and Play Console declarations. The page does not claim a particular age rating or child-directed audience that was not established by the project.
+The policy also describes support email handling and beta membership. Keep it aligned with your actual support retention practices, Google service settings, shipped release, and Play Console declarations. The owner confirmed that the intended audience is ages 13 and older; the policy reflects that. This is separate from the content rating.
 
 References used for third-party disclosures:
 
