@@ -1,0 +1,11 @@
+{
+  "siteUrl": "https://billcorps.github.io/TapBatWebsite/",
+  "developerName": "William Haggerty",
+  "supportEmail": "bartallysupport@gmail.com",
+  "policyUpdated": "September 29, 2026",
+  "beta": {
+    "groupUrl": "https://groups.google.com/g/tapbat",
+    "testUrl": "https://play.google.com/apps/testing/com.billcorp.tapbat",
+    "installUrl": "https://play.google.com/store/apps/details?id=com.billcorp.tapbat"
+  }
+}
