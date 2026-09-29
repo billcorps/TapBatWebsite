@@ -46,7 +46,7 @@ const policySections = [
   [
     "play-games",
     "Google Play Games",
-    `<p>Local play and your personal best do not require Google Play Games sign-in. If online rankings are enabled and you use them, Google Play Games handles authentication and leaderboard services. The app can submit completed-flight scores and display player names, ranks, and scores from the leaderboard.</p><p>Your gaming profile and score may be visible to other players according to Google Play Games settings. Manage your profile, sign-in choices, and game data through Google Play Games and your Google account.</p>`,
+    `<p>Local play and your personal best do not require Google Play Games sign-in. When online rankings are enabled, Google Play Games handles authentication and leaderboard services. It can automatically sign in an existing gaming profile when TapBat starts, according to your Google Play Games sign-in settings. While signed in, TapBat automatically sends completed-flight scores and retries pending submissions when the service is available. The app displays player names, ranks, and scores from the leaderboard.</p><p>Google Play Games collects gamer identity information, including a gamertag and avatar, when a gaming profile is created or updated. Its SDK also collects analytics and diagnostic information for stability and product improvements. See <a href="https://developer.android.com/games/pgs/data-collection">Google’s Play Games SDK data disclosures</a> for details.</p><p>Your gaming profile and score may be visible to other players according to Google Play Games settings. Manage your profile, sign-in choices, and game data through Google Play Games and your Google account.</p>`,
   ],
   [
     "website",
