@@ -1,0 +1,33 @@
+{
+  "product": "TapBat",
+  "locale": "en-US",
+  "copy_status": "editable-draft",
+  "website": "https://billcorps.github.io/TapBatWebsite/",
+  "source_repository": "https://github.com/billcorps/TapBat",
+  "capture_build_sha256": "a001cadb499420001d72541b3817e5cc5af6efef309eca21d667e56495df48a1",
+  "screenshots": [
+    {
+      "path": "public/assets/tapbat-home.png",
+      "source": "docs/screenshots/vine-cache/menu.png",
+      "width": 1080,
+      "height": 2400,
+      "caption": "A moonlit world awaits."
+    },
+    {
+      "path": "public/assets/tapbat-gameplay.png",
+      "source": "docs/screenshots/vine-cache/flight.png",
+      "width": 1080,
+      "height": 2400,
+      "caption": "Find your path through the ruins."
+    }
+  ],
+  "sharing_image": {
+    "path": "public/assets/tapbat-social.png",
+    "source": "marketing/social-card.html",
+    "width": 1200,
+    "height": 630,
+    "device_pixel_ratio": 1
+  },
+  "capture_notes": "Actual Android emulator captures of the development build, made with networking disabled. They do not demonstrate live advertising or online rankings.",
+  "store_notes": "Text files are drafts for the store listing and social updates. Website publication does not publish the Android app or submit its store listing. Closed-test availability remains controlled by Google Play."
+}

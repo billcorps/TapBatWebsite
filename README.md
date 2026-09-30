@@ -6,7 +6,7 @@ A standalone, three-page website for TapBat, ready for GitHub Pages:
 - **Privacy:** local storage, Android backup, Google ads and consent, optional Play Games rankings, website hosting, and support.
 - **Beta:** join the Google Group, opt into the closed test, then install through Google Play.
 
-The design follows the simple structure of BarTallyWebsite with TapBat’s own moonlit visual direction. It describes the current `feature/low-poly-3d` Android checkout, including tap-to-flap and hold-to-glide controls. It does not modify or depend on either Android repository.
+The design follows the simple structure of BarTallyWebsite with TapBat’s own moonlit visual direction. It describes the current `feature/low-poly-3d` Android checkout: tap to flap, hold for 50% slower descent, and release to tuck the wings. Current scenery includes layered forests, sloping terrain, rocks, ferns, and branching vines that wrap the ruins. It does not modify or depend on either Android repository.
 
 All pages are generated as ordinary HTML and CSS. There is no browser JavaScript, backend, analytics, cookie storage, or signup form. Navigation, policy anchors, and the beta FAQ work without JavaScript. The screenshots, icon, and font are local assets.
 
@@ -66,14 +66,19 @@ Do not change the test link to a public-release claim merely because the website
 - `scripts/check-publish.mjs`: contact and beta URL configuration validation; it does not verify enrollment eligibility.
 - `scripts/serve.mjs`: local preview server.
 - `.github/workflows/website.yml`: GitHub Pages build and deployment.
+- `marketing/en-US/*.txt`: editable title, short and full descriptions, website copy, and a social post. These drafts are separate from the rendered page content; update `src/pages.mjs` when changing the website itself.
+- `marketing/social-card.html`: editable source for the 1200 × 630 social preview, using the bundled font, icon, and gameplay capture.
 
 Image sources from the supplied TapBat repository:
 
-- `public/assets/tapbat-home.png` ← `docs/screenshots/native-ads/home-no-ad.png`.
-- `public/assets/tapbat-gameplay.png` ← `docs/screenshots/glide-retry/glide.png`.
+- `public/assets/tapbat-home.png` ← `docs/screenshots/vine-cache/menu.png`.
+- `public/assets/tapbat-gameplay.png` ← `docs/screenshots/vine-cache/flight.png`.
 - `public/assets/favicon.svg` uses the existing Android `ic_bat.xml` geometry and icon colors.
+- `public/assets/tapbat-social.png` is a browser capture of `marketing/social-card.html`; shared Open Graph and Twitter metadata reference this image.
 
-Screenshots are actual captures and contain no sample ads. The home capture uses the earlier “LET’S FLY” button text. DM Sans is bundled from the supplied BarTallyWebsite dependencies; its license is included at `public/assets/DM-Sans-LICENSE.txt`. No new social-preview image was generated.
+The two game screenshots are actual captures from the TapBat development APK with SHA-256 `a001cadb499420001d72541b3817e5cc5af6efef309eca21d667e56495df48a1`. They show the current bat, terrain, rocks, ferns, and wrapped vines, and contain no sample ads. DM Sans is bundled from the supplied BarTallyWebsite dependencies; its license is included at `public/assets/DM-Sans-LICENSE.txt`.
+
+To reproduce the social preview, open `marketing/social-card.html` in a browser with a 1200 × 630 CSS-pixel viewport and a device scale factor of 1. Wait for the local font and images to load, then save a viewport screenshot to `public/assets/tapbat-social.png`. Keep the output at exactly 1200 × 630 pixels. The card uses the actual gameplay capture and labels the game as in development; it does not advertise a public launch. The ordinary site build copies this checked-in PNG and needs no browser or extra dependencies.
 
 ## Privacy content maintenance
 
@@ -96,3 +101,11 @@ npm run check:publish
 ```
 
 `build` checks all three routes, their internal links, image and font references, and anchor targets. It requires no network access. External tester eligibility remains a Google-side check.
+
+The September 30, 2026 content refresh passed the build and public-configuration
+checks. Browser checks covered Home, Beta, and Privacy at 1440, 390, and 320 CSS
+pixels, including image loading, horizontal overflow, FAQ expansion, and beta/privacy
+navigation. Desktop/mobile captures and the sharing image were visually reviewed.
+The sharing card uses the current game capture and supplies Open Graph and Twitter
+large-image metadata. Asset dimensions and provenance are recorded in
+`marketing/assets.json`; store and social copy remain editable drafts.

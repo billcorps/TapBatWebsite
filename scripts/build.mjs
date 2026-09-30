@@ -18,6 +18,8 @@ for (const page of pages) {
 <meta name="theme-color" content="#101c2a">
 <title>${escape(page.title)}</title><meta name="description" content="${escape(page.description)}">
 <meta property="og:title" content="${escape(page.title)}"><meta property="og:description" content="${escape(page.description)}"><meta property="og:type" content="website"><meta property="og:url" content="${canonical}">
+<meta property="og:image" content="${new URL("assets/tapbat-social.png", config.siteUrl).href}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="TapBat. Tap to flap. Hold to glide. Actual gameplay in moonlit ruins with vine-covered columns.">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${new URL("assets/tapbat-social.png", config.siteUrl).href}"><meta name="twitter:image:alt" content="TapBat, with actual gameplay from the Android development build.">
 <link rel="canonical" href="${canonical}"><link rel="icon" type="image/svg+xml" href="${href("assets/favicon.svg")}">
 <link rel="preload" href="${href("assets/dm-sans-latin.woff2")}" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="${href("assets/styles.css")}">

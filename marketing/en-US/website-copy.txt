@@ -1,0 +1,35 @@
+Page title
+TapBat | Tap to flap. Hold to glide.
+
+Meta description
+Guide a bat through moonlit ruins. Tap to flap, hold to glide, and chase your personal best in a world of layered forests and climbing vines.
+
+Development label
+3D version in development
+
+Hero headline
+Tap to flap. Hold to glide.
+
+Hero description
+A little bat. Moonlit ruins. One more point to beat your best. Fly between stone columns with wings that respond to every tap and hold.
+
+Gameplay section
+Find your rhythm
+Tap for a wingbeat. Hold to spread your wings and descend 50% slower, then release to tuck them for a faster drop. Every column pair earns a point, and the challenge grows as you go.
+
+World section
+An overgrown world with depth
+Forests pass in layers beneath drifting clouds. Vines wind around stone columns, and ferns grow among rocks on the slopes below. Procedural shapes and variation give the moonlit ruins their character.
+
+Landscape section
+Change the view
+Choose New landscape in Settings to generate and save a different scene. Your personal best stays with you.
+
+Gallery heading
+Inside the current build
+
+Gallery introduction
+Actual screenshots from the Android development build.
+
+Platform note
+Built for Android 8.0 and newer.
