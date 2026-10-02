@@ -1,6 +1,6 @@
-Guide a little bat through moonlit ruins in TapBat, an arcade flight game about timing, control, and beating your personal best.
+Guide a little bat through stone ruins in TapBat, an arcade flight game about timing, control, and beating your personal best.
 
-Tap to flap. Hold to glide with wings spread and descend 50% slower. Release to tuck your wings and drop faster. Find your rhythm as you thread the gaps between stone columns.
+Tap to flap. Hold to glide with wings spread and descend 50% slower. Release to tuck your wings and drop faster. Guide the bat through the gaps between stone columns.
 
 Each column pair cleared earns a point. The pace increases and the gaps narrow as your score climbs, turning a simple flight into a test of precision.
 
@@ -11,7 +11,7 @@ Choose New landscape in Settings to generate a different view and keep it for yo
 Features:
 - Tap to flap and hold to glide
 - Animated wings that open, beat, and tuck with your controls
-- Moonlit 3D scenery with layered depth
+- 3D scenery with layered forests
 - Procedural terrain, clouds, rocks, and branching vines
 - A rising challenge and a saved personal best
 - New landscape and optional haptic feedback in Settings

@@ -6,7 +6,7 @@ A standalone, three-page website for TapBat, ready for GitHub Pages:
 - **Privacy:** local storage, Android backup, Google ads and consent, optional Play Games rankings, website hosting, and support.
 - **Beta:** join the Google Group, opt into the closed test, then install through Google Play.
 
-The design follows the simple structure of BarTallyWebsite with TapBat’s own moonlit visual direction. It describes the current `feature/low-poly-3d` Android checkout: tap to flap, hold for 50% slower descent, and release to tuck the wings. Current scenery includes layered forests, sloping terrain, rocks, ferns, and branching vines that wrap the ruins. It does not modify or depend on either Android repository.
+The design follows the simple structure of BarTallyWebsite and describes TapBat’s controls: tap to flap, hold for 50% slower descent, and release to tuck the wings. The screenshots show a recent Android development build with layered forests, sloping terrain, rocks, ferns, and vines. The website does not modify or depend on either Android repository.
 
 All pages are generated as ordinary HTML and CSS. There is no browser JavaScript, backend, analytics, cookie storage, or signup form. Navigation, policy anchors, and the beta FAQ work without JavaScript. The screenshots, icon, and font are local assets.
 
@@ -71,12 +71,12 @@ Do not change the test link to a public-release claim merely because the website
 
 Image sources from the supplied TapBat repository:
 
-- `public/assets/tapbat-home.png` ← `docs/screenshots/vine-cache/menu.png`.
-- `public/assets/tapbat-gameplay.png` ← `docs/screenshots/vine-cache/flight.png`.
+- `public/assets/tapbat-home.png` ← `docs/screenshots/branding-cleanup/menu.png`.
+- `public/assets/tapbat-gameplay.png` ← `docs/screenshots/branding-cleanup/flight.png`.
 - `public/assets/favicon.svg` uses the existing Android `ic_bat.xml` geometry and icon colors.
 - `public/assets/tapbat-social.png` is a browser capture of `marketing/social-card.html`; shared Open Graph and Twitter metadata reference this image.
 
-The two game screenshots are actual captures from the TapBat development APK with SHA-256 `a001cadb499420001d72541b3817e5cc5af6efef309eca21d667e56495df48a1`. They show the current bat, terrain, rocks, ferns, and wrapped vines, and contain no sample ads. DM Sans is bundled from the supplied BarTallyWebsite dependencies; its license is included at `public/assets/DM-Sans-LICENSE.txt`.
+The two game screenshots are actual captures from the TapBat development APK with SHA-256 `e8314869cc1e219180d3fb70628340af13b691f53795fa5959c69b7a907c7742`. They were captured on October 2, 2026 and show the bat, terrain, rocks, ferns, and vines with no sample ads. They are development screenshots, not a claim that every detail matches the final release. DM Sans is bundled from the supplied BarTallyWebsite dependencies; its license is included at `public/assets/DM-Sans-LICENSE.txt`.
 
 To reproduce the social preview, open `marketing/social-card.html` in a browser with a 1200 × 630 CSS-pixel viewport and a device scale factor of 1. Wait for the local font and images to load, then save a viewport screenshot to `public/assets/tapbat-social.png`. Keep the output at exactly 1200 × 630 pixels. The card uses the actual gameplay capture and labels the game as in development; it does not advertise a public launch. The ordinary site build copies this checked-in PNG and needs no browser or extra dependencies.
 
@@ -109,3 +109,10 @@ navigation. Desktop/mobile captures and the sharing image were visually reviewed
 The sharing card uses the current game capture and supplies Open Graph and Twitter
 large-image metadata. Asset dimensions and provenance are recorded in
 `marketing/assets.json`; store and social copy remain editable drafts.
+
+The October 2, 2026 refresh uses the branding-cleanup development captures,
+plain gameplay copy, and an updated sharing image. Beta-exit instructions have
+been removed from the beta and privacy pages. Build and configuration checks
+passed; browser checks covered the desktop home page, all three routes at 390
+and 320 pixels, FAQ expansion, image loading, and navigation. The body now fits
+narrow viewports without a horizontal scrollbar.

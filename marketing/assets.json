@@ -4,21 +4,21 @@
   "copy_status": "editable-draft",
   "website": "https://billcorps.github.io/TapBatWebsite/",
   "source_repository": "https://github.com/billcorps/TapBat",
-  "capture_build_sha256": "a001cadb499420001d72541b3817e5cc5af6efef309eca21d667e56495df48a1",
+  "capture_build_sha256": "e8314869cc1e219180d3fb70628340af13b691f53795fa5959c69b7a907c7742",
   "screenshots": [
     {
       "path": "public/assets/tapbat-home.png",
-      "source": "docs/screenshots/vine-cache/menu.png",
+      "source": "docs/screenshots/branding-cleanup/menu.png",
       "width": 1080,
       "height": 2400,
-      "caption": "A moonlit world awaits."
+      "caption": "TapBat home screen."
     },
     {
       "path": "public/assets/tapbat-gameplay.png",
-      "source": "docs/screenshots/vine-cache/flight.png",
+      "source": "docs/screenshots/branding-cleanup/flight.png",
       "width": 1080,
       "height": 2400,
-      "caption": "Find your path through the ruins."
+      "caption": "TapBat gameplay."
     }
   ],
   "sharing_image": {
